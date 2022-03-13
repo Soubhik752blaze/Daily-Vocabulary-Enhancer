@@ -5,7 +5,6 @@ import json
 import datetime
 import requests
 import random
-WORDNIK_API_KEY= "d52b63b6880f17811310d0fbd3b0d3a8ef163a248f58dc831"  
 
 WORDNIK_API_KEY= "d52b63b6880f17811310d0fbd3b0d3a8ef163a248f58dc831"  
 def get_word_of_the_day(current_date):
@@ -31,8 +30,7 @@ def get_word_of_the_day(current_date):
     return response_data
 
 if __name__=="__main__":
-        i=0
-        while(i<5):
+        while(True):
                 start_dt = datetime.date(2015, 1, 1)
                 end_dt = datetime.date.today()
                 time_between_dates = end_dt - start_dt
@@ -48,6 +46,5 @@ if __name__=="__main__":
                 app_icon= "C:\\Users\\soubh\\OneDrive\\Desktop\\Projects\\Daily_Vocab_Enhancer\\word_icon.ico",
                 timeout = 20
                 )             
-                time.sleep(30)
-                i=i+1
+                time.sleep(60*60)                   #sends a new word with meaning notification, 1 hour later
 
