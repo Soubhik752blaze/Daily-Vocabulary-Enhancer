@@ -2,11 +2,11 @@ Created a Vocabulary Enhancer using Python Programming language which starts aut
 
 Language - Python3 Python Modules Used -
 
-Time
-Json
-Requests (https://developer.wordnik.com/gettingstarted)
-Plyer (pip install plyer)
-Wordnik ( pip install wordnik-py3)
+Time,
+Json,
+Requests (https://developer.wordnik.com/gettingstarted),
+Plyer (pip install plyer),
+Wordnik ( pip install wordnik-py3),
 API Used - Wordnik (API KEY can generated from:- https://developer.wordnik.com/gettingstarted)
 
 Note:-
